@@ -1,0 +1,7 @@
+C:\Users\Harshvardhan Gupta\source\repos\NumberGuesserGame\bin\Debug\NumberGuesserGame.exe.config
+C:\Users\Harshvardhan Gupta\source\repos\NumberGuesserGame\bin\Debug\NumberGuesserGame.exe
+C:\Users\Harshvardhan Gupta\source\repos\NumberGuesserGame\bin\Debug\NumberGuesserGame.pdb
+C:\Users\Harshvardhan Gupta\source\repos\NumberGuesserGame\obj\Debug\NumberGuesserGame.csproj.AssemblyReference.cache
+C:\Users\Harshvardhan Gupta\source\repos\NumberGuesserGame\obj\Debug\NumberGuesserGame.csproj.CoreCompileInputs.cache
+C:\Users\Harshvardhan Gupta\source\repos\NumberGuesserGame\obj\Debug\NumberGuesserGame.exe
+C:\Users\Harshvardhan Gupta\source\repos\NumberGuesserGame\obj\Debug\NumberGuesserGame.pdb

@@ -11,12 +11,21 @@ namespace NumberGuesserGame
         static void Main(string[] args)
         {
             int secretNumber, guessingNumber;
+            
+            int minRange, maxRange;
 
-            Console.WriteLine("Enter the secret number: ");
+            Console.WriteLine("Enter the minimum range: ");
+            minRange = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the maximum range: ");
+            maxRange = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the secret number: (within the range)");
             secretNumber =Convert.ToInt32(Console.ReadLine());
+
+
             Console.Clear();
 
-            Console.WriteLine("Range set by game master is 1-100");
+            Console.WriteLine("Range set by game master is" +minRange+ "-" +maxRange);
             Console.WriteLine("Guess the number: ");
             guessingNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -24,7 +33,7 @@ namespace NumberGuesserGame
             {
                 if (guessingNumber < secretNumber) Console.WriteLine("The number is too low, You lost!");
                 else Console.WriteLine("The number is too high, You lost!");
-
+    
                 Console.WriteLine("Guess the number again!");
                 guessingNumber=Convert.ToInt32(Console.ReadLine());
 

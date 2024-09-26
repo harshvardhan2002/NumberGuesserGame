@@ -22,8 +22,8 @@ namespace NumberGuesserGame
 
             while (guessingNumber != secretNumber)
             {
-                if (guessingNumber < secretNumber) Console.WriteLine("The number is too low, try again.");
-                else Console.WriteLine("The number is too high, try again.");
+                if (guessingNumber < secretNumber) Console.WriteLine("The number is too low, You lost!");
+                else Console.WriteLine("The number is too high, You lost!");
 
                 Console.WriteLine("Guess the number again!");
                 guessingNumber=Convert.ToInt32(Console.ReadLine());
